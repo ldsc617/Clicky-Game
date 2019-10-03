@@ -1,0 +1,12 @@
+.card {
+    box-shadow: 5px;
+    height: 185px;
+    width: 185px;
+    margin: 25px;
+    cursor: pointer;
+
+}
+.card-height {
+    height: 100%;
+    width: 100%;
+}

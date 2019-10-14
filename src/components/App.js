@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
 // import './App.css';
-import Navbar from "./components/Navbar/Navbar";
-import Container from "./components/Container";
-import Jumbotron from "./components/Jumbotron";
-import Footer from "./components/Footer";
-import images from './images';
+import Navbar from "./Navbar";
+import Container from "./Container";
+import Jumbotron from "./Jumbotron";
+import Footer from "./Footer";
+import images from '../images';
+// import '..index.js'; 
 
 // function App() {
 //   return (
@@ -41,15 +42,15 @@ class App extends Component {
     const shuffleArray = [];
     
     while (newArray.length > 0) {
-      shuffleArray.push(newArray.splice(Math.floor(Math.random( newArray.length), 1)[0])
-      )};
+      shuffleArray.push(newArray.splice(Math.floor(Math.random() * newArray.length), 1)[0]
+      );}
   return shuffleArray;
 }
 checkClicked(clickedElement) {
   const prevState = this.state.wasClicked.slice();
   const shuffled = this.shuffleArray();
-  var score = this.state.score;
-  var highScore = this.state.highScore;
+  let score = this.state.score;
+  let highScore = this.state.highScore;
 
   if (!this.state.wasClicked.includes(clickedElement)) {
     if (score === highScore) {
@@ -83,13 +84,13 @@ checkClicked(clickedElement) {
     highScore: highScore,
     navMsgClr: 'correct',
     navMessage: 'You Guessed Correctly!',
-    allCharacters: shuffled,
+    allChars: shuffled,
     wasClicked: prevState,
     shake: false
   });
 
   //takes off green light after a successfull click clack
-return setTimeout(() => this.setState({ navMsgClr: ""}), 500);
+return setTimeout(() => this.setState({ navMsgClr: '' }), 500);
 }
 //The Renderings
 render() {

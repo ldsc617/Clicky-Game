@@ -1,9 +1,25 @@
 .jumbotron {
-    background-image: url('../../images/clgm.png');
+    background-image: url('../../images/clgm.png') !important;
+    background-size: 97% 100%;
+    background-position: center;
+    height: 250px;
     
+    margin: 0 !important;
+    padding: 0 !important;
+    color: white;
+    font-size: 18px;
 
 }
-#h4 {
+
+h4 {
     text-align: center;
     color: white;
+    filter: drop-shadow(0 0 0.25rem black);
+}
+
+@media (min-width: 576px) {
+    .banner {
+      font-size: calc(10px + 14 * (100vw - 320px) / 800);
+    }
+
 }

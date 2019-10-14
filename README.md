@@ -13,29 +13,29 @@ Every time an image is clicked, the images rendered to the page will shuffle the
 Once the user's score is reset after an incorrect guess, the game restarts.
 
 ## Play
-This memory game will have different images of the characters for the show Bob's Burgers.
-Click on images to raise your score.
-The images will change after every click.
-Do not click on the same image twice or you will lose.
-If you lose, your score will be reset back to zero!
+- This memory game will have different images of the characters for the show Bob's Burgers.
+- Click on images to raise your score.
+- The images will change after every click.
+- Do not click on the same image twice or you will lose.
+- If you lose, your score will be reset back to zero!
 
 ## Screenshot 
 <img width="761" alt="clicky-ScreenShot" src="https://user-images.githubusercontent.com/49859180/66759288-d7669a80-ee54-11e9-902e-7b156c86367c.png">
 
 ## Hosted on Github to play
-[Game] (https://ldsc617.github.io/Clicky-Game/)
+(https://ldsc617.github.io/Clicky-Game/)
 
 ## Built by Using:
--GitHub
--HTML
--CSS
--Javascript
--React JS
--Photo Editor (for images used)
+- GitHub
+- HTML
+- CSS
+- Javascript
+- React JS
+- Photo Editor (for images used)
 
 ## Start it up
--Click on Hosted GitHub link
-or
--Clone the repository,
+- Click on Hosted GitHub link
+OR
+- Clone the repository,
 then in the terminal Run npm install on the root,
 then Run npm start

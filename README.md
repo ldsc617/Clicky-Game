@@ -1,5 +1,5 @@
 # Clicky-Game
-~~HW15 Clicky Game~~
+HW15 Clicky Game
 
 ## Overview
 This is a memory game created with React. This application was made to practice utilizing the fundamentals of React by breaking up my application's UI into components, managing component state, and responding to user events.
@@ -18,6 +18,9 @@ Click on images to raise your score.
 The images will change after every click.
 Do not click on the same image twice or you will lose.
 If you lose, your score will be reset back to zero!
+
+## Screenshot 
+<img width="761" alt="clicky-ScreenShot" src="https://user-images.githubusercontent.com/49859180/66759288-d7669a80-ee54-11e9-902e-7b156c86367c.png">
 
 ## Hosted on Github to play
 [Game] (https://ldsc617.github.io/Clicky-Game/)
